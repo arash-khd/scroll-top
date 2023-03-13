@@ -1,0 +1,27 @@
+@font-face {
+    font-family:"fontawsome" ;
+    src: url("/font/fontawesome-webfont.ttf");
+}
+.scroll-top{
+    padding: 20px;
+    background: #4d5db5;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    box-shadow : 0 0 6px #4d5db5;
+    transition:;
+
+}
+
+.scroll-top i {
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.some-element {
+width: 500px;
+height: 500px;
+box-shadow:0 0 10px #4d5db5;
+margin: 20px auto;
+}
