@@ -7,7 +7,7 @@ if (window.scrollY == 0) {
 window.addEventListener("scroll", () => {
  
     
-    if (window.scrollY > 300) {
+    if (window.scrollY > 1000) {
 
         scroll_top.style.opacity = 1;
 
@@ -20,16 +20,8 @@ window.addEventListener("scroll", () => {
 
 });
 scroll_top.addEventListener("click", () => {
-   const scrollTop = setInterval(scrolltop, 3);
-    function scrolltop() {
-        window.scrollBy(0, -10);
-}
-window.addEventListener("scroll",()=>{
-    if (window.scrollY == 0) {
-        clearInterval(scrollTop);
-     }
-    
-});
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 
 
 });
